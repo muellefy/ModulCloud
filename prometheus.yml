@@ -13,4 +13,4 @@ scrape_configs:
     
   - job_name: "walti"
     static_configs:
-    - targets: ["192.168.66.138:9100"]
+    - targets: ["localhost:9100"]
