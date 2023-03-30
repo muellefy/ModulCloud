@@ -1,0 +1,10 @@
+[Unit]
+Description=Grafana Agent
+
+[Service]
+User=grafana-agent
+ExecStart=/usr/local/bin/grafana-agent --config.file=agent-config.yaml
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
