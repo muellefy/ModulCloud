@@ -11,6 +11,6 @@ scrape_configs:
     static_configs:
     - targets: ["localhost:9100"]
     
-  - job_name: "walti"
+  - job_name: "grafana"
     static_configs:
-    - targets: ["localhost:9100"]
+    - targets: ["localhost:3000"]
