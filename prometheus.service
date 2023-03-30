@@ -8,7 +8,6 @@ User=prometheus
 Group=prometheus
 Restart=on-failure
 ExecStart=/opt/prometheus/prometheus \
-  --config.file=/home/walt/prometheus.yml \
   --storage.tsdb.path=/opt/prometheus/data \
   --storage.tsdb.retention.time=30d
 
