@@ -1,0 +1,12 @@
+[Unit]
+Description=Start Prometheus/Grafana
+
+ 
+
+[Service]
+ExecStart=/bin/bash /home/walt/grafana_prometheus.sh
+
+ 
+
+[Install]
+WantedBy=multi-user.target
