@@ -1,6 +1,6 @@
 ---
 # tasks file for roles/node-exporter
-- name: check if node exporter exist
+- name: check if node exporter exists
   stat:
     path: "{{ node_exporter_bin }}"
   register: __check_node_exporter_present
