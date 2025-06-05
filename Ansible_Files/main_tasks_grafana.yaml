@@ -6,7 +6,7 @@
     state: present
     update_cache: yes
     cache_valid_time: 3600
-- name: add gpg hey
+- name: add gpg key
   apt_key:
     url: "https://packages.grafana.com/gpg.key"
     validate_certs: no
